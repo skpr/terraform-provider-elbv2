@@ -7,6 +7,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
 
+// Delete the resource.
 func Delete(ctx context.Context, d *schema.ResourceData, m interface{}) diag.Diagnostics {
 	// We do not modify any of the current headers.
 	return nil
