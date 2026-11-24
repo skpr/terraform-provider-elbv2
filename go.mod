@@ -1,6 +1,6 @@
 module github.com/skpr/terraform-provider-elbv2
 
-go 1.26.11
+go 1.26.0
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.32.7
